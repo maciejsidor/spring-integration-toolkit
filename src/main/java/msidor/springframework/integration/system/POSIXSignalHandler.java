@@ -4,8 +4,9 @@ import java.util.List;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+
+import org.apache.log4j.Logger;
 
 import sun.misc.Signal;
 
@@ -13,7 +14,7 @@ import sun.misc.Signal;
 public class POSIXSignalHandler implements sun.misc.SignalHandler
 {
 	
-	private final Logger log = LoggerFactory.getLogger(this.getClass());
+	private final Logger log = Logger.getLogger(this.getClass());
 	
 	private final BlockingQueue<String> signalsReceived = new LinkedBlockingQueue<String>();
 	

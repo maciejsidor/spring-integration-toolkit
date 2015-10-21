@@ -2,8 +2,7 @@ package msidor.springframework.integration.system;
 
 import java.util.List;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.apache.log4j.Logger;
 import org.springframework.integration.support.MessageBuilder;
 import org.springframework.messaging.Message;
 import org.springframework.messaging.MessageChannel;
@@ -12,7 +11,7 @@ import org.springframework.util.Assert;
 
 public class ShutdownHandler
 {
-	private final Logger log = LoggerFactory.getLogger(this.getClass());
+	private final Logger log = Logger.getLogger(this.getClass());
 	
 	private MessageChannel operationChannel = null;
 	
