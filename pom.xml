@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.googlecode.msidor.springframework.integration</groupId>
 	<artifactId>spring-integration-toolkit</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<name>Spring Integration Toolkit</name>
 	<description>Useful tools for spring-integration developers because you can't do the job right without the right tools</description>
 
@@ -43,7 +43,7 @@
 		<connection>scm:git:https://github.com/maciejsidor/spring-integration-toolkit</connection>
 		<developerConnection>scm:git:https://github.com/maciejsidor/spring-integration-toolkit</developerConnection>
 		<url>https://github.com/maciejsidor/spring-integration-toolkit</url>
-	  <tag>release-1.0.0</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<url>https://github.com/maciejsidor/spring-integration-toolkit/wiki</url>
