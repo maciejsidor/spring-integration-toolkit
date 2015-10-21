@@ -1,4 +1,4 @@
-package msidor.springframework.integration.system;
+package com.googlecode.msidor.springframework.integration.system;
 
 import java.util.List;
 

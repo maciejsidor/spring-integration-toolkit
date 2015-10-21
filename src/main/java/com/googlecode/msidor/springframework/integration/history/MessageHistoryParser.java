@@ -1,4 +1,4 @@
-package msidor.springframework.integration.history;
+package com.googlecode.msidor.springframework.integration.history;
 
 import java.util.Iterator;
 import java.util.Properties;

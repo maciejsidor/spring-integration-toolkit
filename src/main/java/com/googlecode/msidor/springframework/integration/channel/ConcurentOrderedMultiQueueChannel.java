@@ -1,4 +1,4 @@
-package msidor.springframework.integration.channel;
+package com.googlecode.msidor.springframework.integration.channel;
 
 import java.util.ArrayList;
 import java.util.List;

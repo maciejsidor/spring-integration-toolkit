@@ -1,4 +1,4 @@
-package msidor.springframework.integration.files;
+package com.googlecode.msidor.springframework.integration.files;
 
 import java.io.File;
 import java.util.ArrayList;
